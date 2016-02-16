@@ -1,0 +1,31 @@
+// =====================================================
+// PlanetRoast Devise Bootstrap Views
+// =====================================================
+
+.planetroast-devise {
+  padding-top:40px;
+  background-color: #ededed;
+
+  // ---------------------------------------------------
+  // Error Messages
+  // ---------------------------------------------------
+  #error_explanation {
+    // Appears when Devise form validations are failed.
+    // Shows you a heading followed by a list of issues.
+    // Example: 2 errors prohibited this user from being saved:
+    // > Email can't be blank
+    // > Password can't be blank
+    h2  {font-size:1em; font-weight:bold;}
+  }
+
+  .field_with_errors {
+    // This class is added to fields when a form fails validation.
+    // The styles below are designed to replicate those used in
+    // Bootstrap's 'form-group has-error' rules.
+    // More info on Bootstrap's form validation states below...
+    // http://getbootstrap.com/css/#forms-control-validation
+    .form-control   {border: 1px solid #a94442;}
+    .control-label  {color: #a94442;}
+  }
+
+}
